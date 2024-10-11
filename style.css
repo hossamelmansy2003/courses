@@ -1,0 +1,452 @@
+@import url('https://fonts.googleapis.com/css2?family=Brawler:wght@400;700&display=swap');
+
+*{
+    font-family: Brawler;
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+    scroll-behavior: smooth;
+}
+
+header{
+    display:flex;
+    justify-content:space-between ;
+    align-items: center;
+    background-color: #3f4763;
+    color: white; 
+    padding: 0px 100px;
+    border-top:solid crimson 4px;
+    position: fixed;
+    z-index: 999;
+    width: 100%;
+    height: 7%;
+    
+}
+
+header:hover{
+    border-top:solid #1abc9c 4px;
+}
+header a{
+    color: white;
+    text-decoration: none;
+    margin-right: 10px;
+    font-size: 20px;
+    transition: ease 1s;
+}
+
+header a:hover{
+    color: #1abc9c;
+    font-size: 25px;
+}
+
+.carsour{
+    height: 100vh;
+    display:flex;
+    align-items: center;
+    color:black;
+    background-image: url(images/Screenshot\ 2024-07-22\ 015651.png);
+    background-size: cover;
+    background-attachment: fixed;
+    background-blend-mode: overlay;
+    background-position: center;
+    color:rgba(0, 0, 0, rgba(0, 0, 0, .4));
+}
+.carsour h2{
+    color: #3f4763;
+    padding: 10px;
+}
+.carsour p{
+    font-size: 25px;
+    padding: 20px;
+}
+
+.carsour div{
+    margin-left: 80px;
+}
+.carsour span{
+    color: crimson;
+}
+.carsour a{
+    color: white;
+    text-decoration: none;
+    background-color: #1abc9c;
+    padding: 10px;
+    border-radius: 10px;
+    display: inline-block; 
+    margin-top: 10px;
+    transition: ease 1s;
+
+}
+.carsour a:hover{
+    transform: scale(1.1);
+    background-color: #3f4763;
+}
+.services h2{
+    text-align: center;
+    margin: 30px 0px;
+}
+.services .countainer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 0px 80px;
+}
+.services .card{
+    margin: 0px 20px;
+    box-shadow: 3px 3px 6px 6px #ccc;
+    padding: 10px;
+    width: 30%;
+    text-align: center;
+    margin-bottom: 50px;
+}
+.services .card i{
+    margin:0px 50px;
+    font-size: 50px;
+    padding: 0px 50px;
+}
+.card h3{
+    color: crimson;
+    margin-bottom: 25px; 
+    text-align: center;
+    font-weight: 1000;
+}
+.card p{
+    font-size: 20px;
+}
+
+
+.portofilio{
+    background-color: #3f4763;
+    text-align: center;
+    padding: 30px 100px;
+}
+.portofilio h2{
+    text-align: center;
+    margin-bottom: 20px;
+    color: white;
+    border-bottom: solid crimson;
+    display: inline-block;
+    margin-bottom: 40px;
+    
+}
+ .portofilio .countener{
+    display: flex;
+    justify-content: center;
+    padding:0px 80px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.portofilio .card{
+    margin-right: 20px;
+    padding:0px 10px;
+    padding-bottom: 10px;
+    width: 16em;
+    border:solid ;
+    border-radius: 20px;
+    overflow: hidden;
+    background-color: white;
+    
+}
+.portofilio .card img{
+ object-fit: cover;
+ width: 300px;
+ height: 12em; 
+}
+.portofilio .card>div{
+    margin: 0px 10px;
+    display: flex;
+    align-items: end;
+    text-align: justify;
+    text-justify: inter-ideograph;
+
+
+}
+.portofilio .card>div p{
+    font-size: 12px;
+    font-weight: 1000;
+}
+.portofilio  button{
+    color: white;
+    background-color: #1abc9c;
+    padding: 0px 8px;
+    border-radius: 10px; 
+    border: none;
+    margin-top: 5px;
+    flex-shrink: 0;
+    margin-left: 10px;
+    transition: 1s ease;
+}
+.portofilio  button:hover{
+    transform: scale(1.1);
+}
+.notilla{
+padding: 100px;
+display: flex;
+}
+.notilla p{
+    font-size: 20px;
+}
+.notilla h2{
+    color: crimson;
+    margin-top: 20px;
+}
+.notilla-disk{
+    width: 40%;
+    text-align: center;
+    padding-right: 50px;
+    margin-left: 200px;
+    box-shadow: 10px 10px 2px  grey;
+ 
+}
+.notilla-image{
+    width: 22.5%;
+    margin-right: 30px;
+    border-radius: 5px;
+    overflow: hidden;
+    box-shadow: 10px 10px 2px  grey;
+    margin-left: 100px;
+ 
+}
+.about{
+    padding: 50px;
+    background-image: url(images/m.jpg);
+    min-height: 80vh;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    justify-content: center;
+    align-items: center;
+    background-blend-mode: overlay;
+    background-color: rgba(0, 0, 0, .4);
+    text-align: center;
+}
+.about h2{
+    color:white;
+    font-size: 20px;
+    text-align: center;
+    margin-bottom: 30px;
+    border-bottom: solid white;
+    display: inline-block;
+ 
+}
+.about>div{
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: center;
+}
+.about img{
+    border-radius: 50%;
+    width: 15em;
+    height: 15em;
+    border: solid white;
+    margin-left: 10px;
+    background-blend-mode: overlay;
+    background-color: rgba(0, 0, 0, .4);
+    object-fit: cover;
+}
+.notilla-image-rtl{
+    width: 22.5%;
+    margin-left: 30px;
+    border-radius: 5px;
+    overflow: hidden;
+    box-shadow: 10px 10px 2px  grey;
+    margin-left: 100px;
+ 
+}
+.map{
+padding:100px;
+display: flex;
+justify-content: center;
+}
+.map div{
+    width: 100%!important;
+    padding: 20px;
+    box-shadow: 0 10px 35px 0px lightblue !important;
+}
+.map iframe{
+    width: 100%!important;
+}
+::-webkit-scrollbar{
+    width: 10px;
+}
+::-webkit-scrollbar-track{
+    box-shadow: 0 0 5px gray;
+    border-radius: 10px;
+}
+::-webkit-scrollbar-thumb{
+    background: crimson;
+    border-radius: 10px;
+}
+::-webkit-scrollbar-thumb:hover{
+    background: #1abc9c;
+}
+.up{
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: crimson;
+    padding: 10px;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    text-align: center;
+    align-items: center;
+justify-content: center;
+color: white;
+}
+.up:hover{
+    background-color: #1abc9c;
+}
+.Contact{
+    text-align: center;
+    padding: 100px;
+    background: rgb(126,177,237);
+background: linear-gradient(90deg, rgba(126,177,237,0.9893207282913166) 35%, rgba(9,121,116,1) 46%, rgba(9,123,119,0.9669117647058824) 58%, rgba(0,212,255,1) 100%);
+}
+.Contact h2{
+    text-align: center;
+    color: white;
+    margin-bottom: 50px;
+    border-bottom: solid;
+    display: inline-block;
+}
+.input-form{
+    
+    margin-bottom: 20px;
+    position: relative;
+    width: 100%;
+}
+.input-form label{
+    font-size: 12px;
+    position: absolute;
+    bottom: 12px;
+    left: 5px;
+    transform:tramslate(-50%);
+    transition: all 1s;
+    pointer-events: none;
+}
+.input-form input:hover~label {
+bottom:28px;
+transform:tramslate(-40%)
+}
+.input-form input:valid~label  {
+    bottom:28px;
+    transform:tramslate(-40%)
+    }
+.input-form input{
+    border: none;
+    border-bottom: solid #1abc9c;
+    padding: 0px 5px;
+    outline: none;
+    width: 100%;
+    height: 40px;
+}
+.Send{
+    padding: 5px 30px;
+    background-color: #3f4763;
+    color: white;
+    border-radius: 10px;
+    border: none;
+    box-shadow: 0 12px 12px  gray;
+    transition: all 1s;
+}
+.Send:hover{
+    transform: scale(1.1);
+    background-color: #1abc9c;
+}
+footer{
+    text-align: center;
+    background-color: #3f4763;
+    color: white;
+    padding: 7px;
+}
+.course{ 
+text-align: center;
+background-image: url(images/Planet9_3840x2160.jpg);
+padding: 10px;
+}
+.course h2{
+    text-align: center;
+    margin-bottom: 20px;
+    color: white;
+    border-bottom: solid crimson;
+    display: inline-block;
+    margin-bottom: 40px;
+}
+.course .language{
+    display: flex;
+    justify-content: center;
+    padding:0px 80px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+
+.course .gmy{
+    margin-right: 20px;
+    padding:0px 10px;
+    padding-bottom: 10px;
+    width: 16em;
+    border:solid ;
+    border-radius: 20px;
+    overflow: hidden;
+    background-color: white;
+}
+.course .gmy img{
+    object-fit: cover;
+    width: 300px;
+    height: 192px; 
+}
+.course button{
+    color: white;
+    background-color: #1abc9c;
+    padding: 0px 8px;
+    border-radius: 10px; 
+    border: none;
+    margin-top: 5px;
+    flex-shrink: 0;
+    margin-left: 10px;
+    transition: 1s ease;
+}
+.course button:hover{
+    transform: scale(1.1);
+}
+.cal img{
+    width: 25%;
+    height: 25%;
+  /*  object-fit: cover;*/
+  padding: 15px;
+  margin: 0px 400px;
+  object-fit: cover;
+  display: flex;
+}
+.cs{
+    text-align: center;
+    padding: 10px;
+}
+.cs h2{
+    text-align: center;
+    margin-bottom: 20px;
+    color: black;
+    border-bottom: solid crimson;
+    display: inline-block;
+    margin-bottom: 40px;   
+}
+.lam{
+    text-align: center;
+    padding: 10px;
+    width: 100%;
+    height: 10px;
+    margin: 0px 150px;
+}
+.lam div{
+    padding: 10px;
+}
+.lam a{
+    margin: 5px 0px;
+}
+.lam i{
+    margin: 0px 10px;
+    padding: 10px 0px;
+}
